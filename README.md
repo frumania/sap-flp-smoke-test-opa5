@@ -59,7 +59,7 @@ The app has stopped working
 
 ## Screenshot
 
-![DEMO](https://github.com/frumania/sap-flp-smoke-test-opa5/blob/master/docs/img/demo.png )
+![DEMO](https://github.com/frumania/sap-flp-smoke-test-opa5/blob/master/docs/img/demo.png)
 
 ## Changelog
 
