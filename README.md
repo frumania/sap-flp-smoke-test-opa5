@@ -59,7 +59,7 @@ The app has stopped working
 
 ## Screenshot
 
-![Alt text](https://sap.frumania.com/flptester_min.png "Tool")
+![Alt text](https://github.com/frumania/sap-flp-smoke-test-opa5/blob/master/docs/img/demo.png "Tool")
 
 ## Changelog
 
