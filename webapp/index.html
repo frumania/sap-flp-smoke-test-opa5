@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Fiori Launchpad SELF TEST</title>
+		<meta http-equiv='X-UA-Compatible' content='IE=edge' />
+		<meta charset="UTF-8">
+
+		<script id="sap-ui-bootstrap" src="../resources/sap-ui-core.js"
+				data-sap-ui-resourceroots='{
+					"ci.reference": "./"
+				}'>
+		</script>
+		
+		<style>
+		#qunit-tests li li.fail {
+	    white-space: normal!important;
+		}
+		.fail table{
+			display:none;
+		}
+		.fail .test-diff{
+			display:none;
+		}
+		#qunit-banner {
+    	height: 20px!important;
+		}
+		#OpaFrame{
+			position:fixed!important;
+		}
+		body{
+			margin:0px;
+		}
+		#abortTest{
+			position: absolute;
+		    right: 0px;
+		    margin: 10px;
+		    color: #FFF;
+		}
+		#help{
+			position: absolute;
+		    right: 100px;
+		    margin: 10px;
+		    color: #FFF;
+		}
+		#qunit-testrunner-toolbar{
+			display:none;
+		}
+		#qunit-tests li a {
+		    color: #528CE0 !important;
+		    text-decoration: underline !important;
+		}
+		</style>
+
+		<script>
+			jQuery.sap.require("ci.reference.Config");
+		    jQuery.sap.require("ci.reference.utils");
+		    jQuery.sap.require("ci.reference.utils-abap-flp");
+		    jQuery.sap.require("ci.reference.Main");
+		    jQuery.sap.require("ci.reference.getAllIntents");
+		</script>
+		
+		<script>
+		var abortTest = false;
+		$( document ).ready(function() {
+		$( "#abortTest" ).click(function() {
+		   abortTest = true;
+		   $(this).hide();
+		});
+		});
+		</script>
+
+	</head>
+	<body>
+		<a href="https://github.wdf.sap.corp/D055675/P_I_FLPTESTERMIN" target="_blank" id="help">Get Help</a>
+		<a href="javascript:void(0)" id="abortTest">Abort Test</a>
+		<div id="qunit-wrapper">
+		<div id="qunit"></div>
+		<div id="qunit-fixture"></div>
+		</div>
+	</body>
+</html>
