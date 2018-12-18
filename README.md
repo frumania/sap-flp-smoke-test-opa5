@@ -1,4 +1,4 @@
-# FLPTESTER MIN
+# SAP Fiori smoke test tool based on OPA5
 
 Test automation tool for the startup of SAPUI5/Fiori Apps inside the SAP Fiori launchpad.
 
