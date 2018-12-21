@@ -57,7 +57,7 @@ Failed to load UI5 component
 The app has stopped working
 ```
 
-## SUPPORT & CONTRIBUTION ##
+## Support and Contribution
 
 This project is provided "as-is". There is no guarantee that raised issues will be answered or addressed in future releases.
 
