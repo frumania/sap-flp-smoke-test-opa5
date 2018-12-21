@@ -2,6 +2,8 @@
 
 Test automation tool for the startup of SAPUI5/Fiori Apps inside the SAP Fiori launchpad.
 
+Check also the new big brother [UIVeri5 smoke test tool](https://github.com/frumania/sap-flp-smoke-test-uiveri5), which allows easy mass scheduling and reporting.
+
 ## Prerequisites
 
 * SAP Fiori launchpad on SAP Netweaver ABAP
