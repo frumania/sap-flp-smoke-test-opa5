@@ -57,6 +57,12 @@ Failed to load UI5 component
 The app has stopped working
 ```
 
+## SUPPORT & CONTRIBUTION ##
+
+This project is provided "as-is". There is no guarantee that raised issues will be answered or addressed in future releases.
+
+If you like to contribute, fork the code and/or let me know!
+
 ## Screenshot
 
 ![DEMO](https://github.com/frumania/sap-flp-smoke-test-opa5/blob/master/docs/img/demo.png)
